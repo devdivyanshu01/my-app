@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SignIN from './Account/SignIN';
-import SignUP from './Account/SignUP';
-import Forgot from './Account/forgot';
-import Account from './Account/account'
-import Edit from './Account/edit';
+import SignIN from './Acc/SignIN';
+import SignUP from './Acc/SignUP';
+import Forgot from './Acc/forgot';
+import Account from './Acc/account'
+import Edit from './Acc/edit';
 import Layout from './Layout'; 
 import Dashboard from './menu/dashboard';
 import New from './menu/new';
@@ -28,7 +28,7 @@ function App() {
           <Route path='/performance' element={<Performance />} />
           <Route path='/My-ticket/detail' element={<Details />} />
           <Route path='/account/account' element={<Account />} />
-          <Route path="/Account/Edit" element={<Edit />} />
+          <Route path="/Acc/Edit" element={<Edit />} />
           </Route>
           <Route path="/account/SignIN" element={<SignIN />} />
           <Route path="/account/SignUP" element={<SignUP />} />

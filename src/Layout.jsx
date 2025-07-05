@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Outlet,  Link } from 'react-router-dom';
-import SidebarMenu from './Account/SidebarMenu';
+import SidebarMenu from './Acc/SidebarMenu';
 import './App.css';
 
 function Layout() {

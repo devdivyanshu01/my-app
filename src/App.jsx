@@ -4,7 +4,7 @@ import SignIN from './Acc/SignIN';
 import SignUP from './Acc/SignUP';
 import Forgot from './Acc/Forgot';
 import Account from './Acc/account'
-import Edit from './Acc/edit';
+import Edit from './Acc/Edit';
 import Layout from './Layout'; 
 import Dashboard from './menu/dashboard';
 import New from './menu/new';

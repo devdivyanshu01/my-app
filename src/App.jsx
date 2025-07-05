@@ -30,9 +30,9 @@ function App() {
           <Route path='/account/account' element={<Account />} />
           <Route path="/Acc/Edit" element={<Edit />} />
           </Route>
-          <Route path="/account/SignIN" element={<SignIN />} />
-          <Route path="/account/SignUP" element={<SignUP />} />
-          <Route path="/account/Forgot" element={<Forgot />} />
+          <Route path="/Acc/SignIN" element={<SignIN />} />
+          <Route path="/Acc/SignUP" element={<SignUP />} />
+          <Route path="/Acc/Forgot" element={<Forgot />} />
         </Routes>
       </HashRouter>
     </div>

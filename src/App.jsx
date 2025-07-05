@@ -27,8 +27,8 @@ function App() {
           <Route path='/approval' element={<TicketApproval />} />
           <Route path='/performance' element={<Performance />} />
           <Route path='/My-ticket/detail' element={<Details />} />
-          <Route path='./Acc/account' element={<Account />} />
-          <Route path="./Acc/edit" element={<Edit />} />
+          <Route path='/Acc/account' element={<Account />} />
+          <Route path="/Acc/edit" element={<Edit />} />
           </Route>
           <Route path="/Acc/SignIN" element={<SignIN />} />
           <Route path="/Acc/SignUP" element={<SignUP />} />

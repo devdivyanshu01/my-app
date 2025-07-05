@@ -15,8 +15,8 @@ function SignIN() {
           <button className="btn">Sign in</button>
         </div>
         <div className="options">
-          <p style={{ cursor: 'pointer', color: 'red' }} onClick={()=> navigate('./Acc/Forgot')}>Forgot Password?</p>
-          <p style={{ cursor: 'pointer', color: 'black' }} onClick={() => navigate('./Acc/SignUP')}>Sign Up</p>
+          <p style={{ cursor: 'pointer', color: 'red' }} onClick={()=> navigate('/Forgot')}>Forgot Password?</p>
+          <p style={{ cursor: 'pointer', color: 'black' }} onClick={() => navigate('/SignUP')}>Sign Up</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2AF5FF;
+}
+
+.sign .container {
+  background-color: rgba(255, 255, 255, 0.578);
+  padding: 40px;
+  height: 500px;
+  width: 700px;
+  text-align: center;
+}
+
+.sign h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.sign input.user,
+.sign input.pass,
+.sign input.mail {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  max-width: 400px;
+}
+
+
+.sign .btn {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px;
+  background-color: rgb(95, 255, 47);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign .options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.sign .options p:hover {
+  text-decoration: underline;
+}

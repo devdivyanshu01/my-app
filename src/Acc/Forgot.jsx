@@ -1,5 +1,5 @@
 
-import './signin.css'
+import './forgot.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Forgot(){

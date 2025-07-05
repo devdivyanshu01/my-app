@@ -17,8 +17,8 @@ function SignUP(){
                 <input className='mail' type="mail" placeholder="Email" pattern="[a-zA-Z0-9@.]" required />
                 <button className="btn" style={{backgroundcolor:"rgb(31, 90, 216)"}}>Sign UP</button></div>
                 <div className="options">
-                    <p style={{cursor:"pointer", color:"red"}} onClick={()=> navigate('/Acc/Forgot.jsx')}>Forgot Password?</p>
-                    <p style={{cursor:"pointer", color:"black"}} onClick={()=> navigate('/Acc/SignIN.jsx')}>Sign In</p>
+                    <p style={{cursor:"pointer", color:"red"}} onClick={()=> navigate('/Acc/Forgot')}>Forgot Password?</p>
+                    <p style={{cursor:"pointer", color:"black"}} onClick={()=> navigate('/Acc/SignIN')}>Sign In</p>
                 </div>
 
             </div>

@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SignIN from './Acc/SignIN';
 import SignUP from './Acc/SignUP';
-import Forgot from './Acc/forgot';
+import Forgot from './Acc/Forgot';
 import Account from './Acc/account'
 import Edit from './Acc/edit';
 import Layout from './Layout'; 

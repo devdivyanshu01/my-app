@@ -4,7 +4,7 @@ import SignIN from './Acc/SignIN';
 import SignUP from './Acc/SignUP';
 import Forgot from './Acc/Forgot';
 import Account from './Acc/account'
-import Edit from './Acc/Edit';
+import Edit from './Acc/edit';
 import Layout from './Layout'; 
 import Dashboard from './menu/dashboard';
 import New from './menu/new';
@@ -28,7 +28,7 @@ function App() {
           <Route path='/performance' element={<Performance />} />
           <Route path='/My-ticket/detail' element={<Details />} />
           <Route path='/account/account' element={<Account />} />
-          <Route path="/Acc/Edit" element={<Edit />} />
+          <Route path="/Acc/edit" element={<Edit />} />
           </Route>
           <Route path="/Acc/SignIN" element={<SignIN />} />
           <Route path="/Acc/SignUP" element={<SignUP />} />

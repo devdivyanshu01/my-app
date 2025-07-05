@@ -131,7 +131,7 @@ export default function Account() {
         
         <div style={styles.card}>
           <div style={styles.editIcon}>
-            <Link to='/Acc/edit'><img
+            <Link to='./Acc/edit'><img
               src="https://cdn-icons-png.flaticon.com/128/1827/1827933.png"
               alt="Edit"
               style={styles.editIconImg}

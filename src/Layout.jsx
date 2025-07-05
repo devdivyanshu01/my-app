@@ -21,8 +21,8 @@ function Layout() {
         <button onClick={handleToggle}style={{backgroundColor: mode === 'BI' ? '#2AF5FF' : '#000',color: mode === 'BI' ? '#000' : '#fff'
 ,padding: '8px 16px',borderRadius: '6px',border: 'none',cursor: 'pointer'}}>BI</button></div></li>
             <li><img src="https://cdn-icons-png.flaticon.com/128/1827/1827422.png" alt="" /></li>
-            <li><Link to="/Acc/account"><img src="https://cdn-icons-png.flaticon.com/128/40/40358.png" alt="" /></Link></li>
-            <li><Link to='/Acc/SignIN'><img src="https://cdn-icons-png.flaticon.com/128/1828/1828479.png" alt="" /></Link></li>
+            <li><Link to="./Acc/account"><img src="https://cdn-icons-png.flaticon.com/128/40/40358.png" alt="" /></Link></li>
+            <li><Link to='./Acc/SignIN'><img src="https://cdn-icons-png.flaticon.com/128/1828/1828479.png" alt="" /></Link></li>
           </ul>
         </nav>
       </header>
